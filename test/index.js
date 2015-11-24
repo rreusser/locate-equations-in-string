@@ -10,3 +10,4 @@ describe('locateEquationsInString', () => {
     assert(true)
   })
 })
+
