@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Another attempt aimed at processing equations in markdown, except a little cleaner this time. The last attempt was relied heavily on [complicated regexes and ad-hoc markdown sorta-parsing](https://github.com/rreusser/gulp-markdown-equations). Here, the goal is to create a simple multi-purpose utility that does nothing more than procesing equations in a string of text. This is [not a trivial problem](https://github.com/cben/mathdown/wiki/math-in-markdown).
+Another attempt aimed at processing equations in markdown, except a little cleaner this time. The last attempt relied heavily on [complicated regexes and ad-hoc markdown sorta-parsing](https://github.com/rreusser/gulp-markdown-equations). Here, the goal is to create a simple multi-purpose utility that does nothing more than procesing equations in a string of text. This is [not a trivial problem](https://github.com/cben/mathdown/wiki/math-in-markdown).
 
 ## To Do
 
