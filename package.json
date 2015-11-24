@@ -1,0 +1,33 @@
+{
+  "name": "locate-equations-in-string",
+  "version": "1.0.0",
+  "description": "Locate LaTeX-like equations in a string of text",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "standard src/*.js src/**/*.js test/*.js test/**/*.js",
+    "test": "npm run lint && mocha --compilers js:babel-core/register",
+    "build": "babel --presets es2015 src/ --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rreusser/locate-equations-in-string.git"
+  },
+  "keywords": [
+    "latex",
+    "equations",
+    "math"
+  ],
+  "author": "Ricky Reusser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rreusser/locate-equations-in-string/issues"
+  },
+  "homepage": "https://github.com/rreusser/locate-equations-in-string#readme",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-preset-es2015": "^6.1.18",
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "standard": "^5.4.1"
+  }
+}
